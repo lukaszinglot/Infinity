@@ -1,0 +1,672 @@
+.home-section {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    flex: 14;
+}
+
+.h1-mission {
+    margin: 0 auto;
+    flex: 2;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.p-mission {
+    flex: 10;
+    font-size: 34px;
+    margin: auto auto;
+}
+
+.p-element {
+    flex: 1;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -104px;
+    font-size: 100px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.page-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+    height: 50%;
+}
+
+div.page-slider-element {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+}
+
+.clients-section {
+    height: 850px;
+    width: 100%;
+    background: url("../images/triangle.png") no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-clients {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+}
+
+.h1-clients {
+    margin: 0 auto 0 6vw;
+    color: white;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.p-clients {
+    flex: 1;
+    font-size: 38px;
+    margin: auto 19vw auto 3vw;
+}
+
+.p-company {
+    font-size: 32px;
+    margin-left: 3vw;
+    margin-top: 30px;
+}
+
+i.p-company {
+    font-style: normal;
+    text-decoration: underline;
+    margin-left: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.div-services {
+    display: flex;
+    margin: 0 0 0vh 3vw;
+}
+
+.p-services {
+    border: 1px solid white;
+    color: white;
+    margin: 30px 5px 0 0;
+    padding: 3px 10px;
+    font-size: 25px;
+}
+
+.div-dots {
+    font-size: 130px;
+    margin-bottom: 250px;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    color: white;
+    margin-left: 7vw;
+    flex: 3;
+}
+
+.p-dot-one {
+    opacity: 0.5;
+    margin-right: 15px;
+}
+
+
+.p-dot-two {
+    opacity: 0.5;
+    margin-right: 15px;
+}
+
+.p-dot-three {
+    opacity: 1;
+    margin-right: 15px;
+}
+
+.ipad {
+    flex: 5;
+    background: url('../images/ipad.png') no-repeat;
+    margin-top: 10vw;
+    margin-left: 2vw;
+}
+
+.products-section {
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.quote-products {
+    display: flex;
+    flex-direction: column;
+    flex: 14;
+}
+
+.h1-products {
+    margin: 0 auto;
+    flex: 1;
+    margin-top: 2%;
+    font-size: 60px;
+}
+
+.p-products {
+    flex: 2;
+    font-size: 34px;
+    margin: auto auto;
+}
+
+.products-list {
+    display: flex;
+    flex: 8;
+    margin: auto 14vw;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 11vh;
+}
+
+
+.product-element {
+    flex: 1;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 5px;
+}
+
+.map-section {
+    background: #f1f1f1 url("../images/mapaa.png") no-repeat;
+    background-position: right;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+}
+
+.map-adress-section {
+    display: flex;
+    flex-direction: column;
+    flex: 14;
+}
+
+.h1-map {
+    margin: 0 25vw;
+    flex: 2;
+    margin-top: 5%;
+    font-size: 28px;
+}
+
+.p-map {
+    flex: 10;
+    text-align: left;
+    font-size: 22px;
+    margin: 2vw 54vw 0 25vw;
+}
+
+.p-map-lorem {
+    flex: 10;
+    text-align: left;
+    font-size: 22px;
+    margin: -4vw 48vw 0 25vw;
+}
+
+.contact-section {
+    height: 640px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-contact {
+    display: flex;
+    flex-direction: column;
+    flex: 14;
+}
+
+.flex-h-section {
+    display: flex;
+    flex: 2;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.h1-contact {
+    margin: 0 auto 0 3vw;
+    font-size: 58px;
+    font-family: 'Share Tech', sans-serif;
+    height: 60px;
+}
+
+.button-contact {
+    height: 60px;
+    font-size: 20px;
+    background-color: #61C017;
+    border: 1px solid #61C017;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 18px;
+}
+
+.p-contact {
+    flex: 4;
+    font-size: 32px;
+    margin: auto 16vw auto 16vw;
+}
+
+.form-contact {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto 16vw auto 16vw;
+}
+
+.p-form-contact {
+    font-size: 36px;
+}
+
+.user-input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 20px;
+}
+
+.user-input:focus {
+    outline: none;
+}
+
+.checkbox-contact {
+    font-size: 23px;
+}
+
+.apply-form {
+    background-color: #61C017;
+    border: 1px solid #61C017;
+    border-radius: 4px;
+    color: white;
+    margin: 8vh 35%;
+    width: 200px;
+    font-size: 20px;
+    padding: 4px 18px;
+}
+
+@media (max-width: 1600px) {
+
+    .products-section {
+        height: 1100px;
+    }
+
+
+    .p-products {
+        font-size: 32px;
+    }
+
+    .products-list {
+        margin-bottom: 8vh;
+    }
+
+    .h1-map {
+        margin: 0 24vw;
+        margin-top: 5%;
+        font-size: 26px;
+    }
+
+    .p-map {
+        font-size: 21px;
+        margin: 2vw 54vw 0 24vw;
+    }
+
+    .p-map-lorem {
+        font-size: 21px;
+        margin: -4vw 48vw 0 24vw;
+    }
+
+    .contact-section {
+        height: 620px;
+    }
+
+    .quote-contact {
+        display: flex;
+        flex-direction: column;
+        flex: 14;
+    }
+
+    .flex-h-section {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .h1-contact {
+        font-size: 55px;
+        height: 55px;
+    }
+
+    .button-contact {
+        height: 55px;
+        font-size: 19px;
+    }
+
+    .p-contact {
+        font-size: 29px;
+        margin: auto 16vw auto 16vw;
+    }
+
+    .form-contact {
+        margin: auto 16vw auto 16vw;
+    }
+
+    .p-form-contact {
+        font-size: 33px;
+    }
+
+    .user-input {
+        width: 240px;
+        font-size: 19px;
+    }
+
+    .checkbox-contact {
+        font-size: 21px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .home-section {
+        height: 500px;
+    }
+
+    .h1-mission {
+        font-size: 45px;
+    }
+
+    .p-mission {
+        font-size: 29px;
+        margin: auto 4vw;
+    }
+
+    .p-element {
+        margin-left: -55px;
+        margin-top: -100px;
+        font-size: 90px;
+    }
+
+    .clients-section {
+        height: 630px;
+    }
+
+    .quote-clients {
+        display: flex;
+        flex-direction: column;
+        flex: 9;
+    }
+
+    .h1-clients {
+        margin-left: 7vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: 48px;
+    }
+
+    .p-clients {
+        font-size: 25px;
+        margin: auto 18vw auto 3vw;
+    }
+
+    .p-company {
+        font-size: 25px;
+    }
+
+    .p-services {
+        font-size: 22px;
+    }
+
+    .div-dots {
+        font-size: 110px;
+        margin-bottom: 250px;
+        margin-left: 8vw;
+    }
+
+    .ipad {
+        background: url('../images/ipad.png') no-repeat;
+        background-size: 90%;
+        margin-left: 0vw;
+    }
+
+    .products-section {
+        height: 1050px;
+    }
+
+
+    .h1-products {
+        margin-top: 1%;
+        font-size: 46px;
+    }
+
+    .p-products {
+        font-size: 29px;
+    }
+
+    .products-list {
+        margin: auto 4vw;
+        margin-bottom: 7vh;
+    }
+
+    .product-element {
+        margin-top: 3px;
+    }
+
+    .map-section {
+        background-size: 90%;
+        height: 460px;
+    }
+
+    .map-adress-section {
+        display: flex;
+        flex-direction: column;
+        flex: 14;
+    }
+
+    .h1-map {
+        margin: 0 20vw;
+        margin-top: 8%;
+        font-size: 26px;
+    }
+
+    .p-map {
+        font-size: 20px;
+        margin: 2vw 55vw 0 20vw;
+    }
+
+    .p-map-lorem {
+        font-size: 22px;
+        margin: -8vw 40vw 0 20vw;
+    }
+
+    .contact-section {
+        height: 540px;
+    }
+
+    .flex-h-section {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .h1-contact {
+        font-size: 45px;
+        height: 45px;
+    }
+
+    .button-contact {
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .p-contact {
+        font-size: 25px;
+        margin: auto 8vw auto 12vw;
+    }
+
+    .form-contact {
+        margin: auto 9vw auto 12vw;
+    }
+
+    .p-form-contact {
+        font-size: 29px;
+    }
+
+    .user-input {
+        width: 210px;
+        font-size: 19px;
+    }
+
+    .checkbox-contact {
+        font-size: 19px;
+        margin-top: 3vh;
+        margin-right: 15vw;
+    }
+
+    .apply-form {
+        width: 170px;
+        font-size: 19px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .home-section {
+        height: 400px;
+    }
+
+    .h1-mission {
+        font-size: 40px;
+    }
+
+    .p-mission {
+        font-size: 25px;
+        margin: auto 3vw;
+    }
+
+    .p-element {
+        margin-left: -45px;
+        margin-top: -80px;
+        font-size: 80px;
+    }
+
+    .clients-section {
+        height: 450px;
+    }
+
+    .h1-clients {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 42px;
+    }
+
+    .p-clients {
+        font-size: 20px;
+        margin: auto 16vw auto 3vw;
+    }
+
+    .p-company {
+        font-size: 20px;
+    }
+
+    .p-services {
+        font-size: 18px;
+    }
+
+    .div-dots {
+        font-size: 85px;
+    }
+
+    .products-section {
+        height: 1050px;
+    }
+
+
+    .h1-products {
+        margin-top: 1%;
+        font-size: 38px;
+    }
+
+    .p-products {
+        font-size: 24px;
+    }
+
+    .products-list {
+        margin: auto 0;
+        margin-bottom: 5vh;
+    }
+
+    .product-element {
+        margin-top: 3px;
+    }
+
+    .map-section {
+        height: 346px;
+    }
+
+
+    .h1-map {
+        margin: 0 15vw;
+        margin-top: 8%;
+        font-size: 25px;
+    }
+
+    .p-map {
+        font-size: 19px;
+        margin: 2vw 57vw 0 15vw;
+    }
+
+    .p-map-lorem {
+        font-size: 19px;
+        margin: -8vw 45vw 0 15vw;
+    }
+
+    .contact-section {
+        height: 500px;
+    }
+
+    .h1-contact {
+        font-size: 40px;
+        height: 40px;
+    }
+
+    .button-contact {
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .p-contact {
+        font-size: 20px;
+        margin: auto 4vw auto 9vw;
+    }
+
+    .form-contact {
+        margin: auto 4vw auto 9vw;
+    }
+
+    .p-form-contact {
+        font-size: 25px;
+    }
+
+    .user-input {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .checkbox-contact {
+        font-size: 18px;
+        margin-top: 3vh;
+        margin-right: 13vw;
+    }
+
+    .apply-form {
+        width: 160px;
+        font-size: 19px;
+    }
+}

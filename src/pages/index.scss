@@ -1,0 +1,258 @@
+.creditcard,
+.dataprotection,
+.hacker,
+.firewall,
+.fishing,
+.network,
+.folder,
+.pendrive,
+.malware,
+.malware1,
+.smartphone,
+.smartphone1 {
+    height: 139px;
+    width: 139px;
+}
+
+.creditcard:hover,
+.dataprotection:hover,
+.hacker:hover,
+.firewall:hover,
+.fishing:hover,
+.network:hover,
+.folder:hover,
+.pendrive:hover,
+.malware:hover,
+.malware1:hover,
+.smartphone:hover,
+.smartphone1:hover {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 42px 1px 46px #61C017;
+    background: #61C017;
+}
+
+.creditcard+#show-text.creditcard,
+.dataprotection+#show-text.dataprotection,
+.firewall+#show-text.firewall,
+.network+#show-text.network,
+.fishing+#show-text.fishing,
+.smartphone1+#show-text.smartphone1,
+.hacker+#show-text.hacker,
+.folder+#show-text.folder,
+.pendrive+#show-text.pendrive,
+.malware+#show-text.malware,
+.smartphone+#show-text.smartphone,
+.malware1+#show-text.malware1 {
+    font-size: 14px;
+    visibility: hidden;
+    color: black;
+    text-align: left;
+}
+
+.creditcard:hover+#show-text.creditcard,
+.dataprotection:hover+#show-text.dataprotection,
+.firewall:hover+#show-text.firewall,
+.network:hover+#show-text.network,
+.fishing:hover+#show-text.fishing,
+.smartphone1:hover+#show-text.smartphone1,
+.hacker:hover+#show-text.hacker,
+.folder:hover+#show-text.folder,
+.pendrive:hover+#show-text.pendrive,
+.malware:hover+#show-text.malware,
+.smartphone:hover+#show-text.smartphone,
+.malware1:hover+#show-text.malware1 {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 26px 42px 1px 46px #61C017;
+    background: #61C017;
+    visibility: visible;
+}
+
+@media (max-width: 1600px) {
+
+    .creditcard,
+    .dataprotection,
+    .hacker,
+    .firewall,
+    .fishing,
+    .network,
+    .folder,
+    .pendrive,
+    .malware,
+    .malware1,
+    .smartphone,
+    .smartphone1 {
+        height: 130px;
+        width: 130px;
+    }
+
+    .creditcard:hover,
+    .dataprotection:hover,
+    .hacker:hover,
+    .firewall:hover,
+    .fishing:hover,
+    .network:hover,
+    .folder:hover,
+    .pendrive:hover,
+    .malware:hover,
+    .malware1:hover,
+    .smartphone:hover,
+    .smartphone1:hover {
+
+        box-shadow: 0px 38px 1px 42px #61C017;
+
+    }
+
+    .creditcard:hover+#show-text.creditcard,
+    .dataprotection:hover+#show-text.dataprotection,
+    .firewall:hover+#show-text.firewall,
+    .network:hover+#show-text.network,
+    .fishing:hover+#show-text.fishing,
+    .smartphone1:hover+#show-text.smartphone1,
+    .hacker:hover+#show-text.hacker,
+    .folder:hover+#show-text.folder,
+    .pendrive:hover+#show-text.pendrive,
+    .malware:hover+#show-text.malware,
+    .smartphone:hover+#show-text.smartphone,
+    .malware1:hover+#show-text.malware1 {
+
+        box-shadow: 12px 38px 1px 42px #61C017;
+
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .creditcard,
+    .dataprotection,
+    .hacker,
+    .firewall,
+    .fishing,
+    .network,
+    .folder,
+    .pendrive,
+    .malware,
+    .malware1,
+    .smartphone,
+    .smartphone1 {
+        height: 119px;
+        width: 119px;
+    }
+
+    .creditcard:hover,
+    .dataprotection:hover,
+    .hacker:hover,
+    .firewall:hover,
+    .fishing:hover,
+    .network:hover,
+    .folder:hover,
+    .pendrive:hover,
+    .malware:hover,
+    .malware1:hover,
+    .smartphone:hover,
+    .smartphone1:hover {
+
+        box-shadow: 0px 34px 1px 38px #61C017;
+
+    }
+
+
+    .creditcard+#show-text.creditcard,
+    .dataprotection+#show-text.dataprotection,
+    .firewall+#show-text.firewall,
+    .network+#show-text.network,
+    .fishing+#show-text.fishing,
+    .smartphone1+#show-text.smartphone1,
+    .hacker+#show-text.hacker,
+    .folder+#show-text.folder,
+    .pendrive+#show-text.pendrive,
+    .malware+#show-text.malware,
+    .smartphone+#show-text.smartphone,
+    .malware1+#show-text.malware1 {
+        font-size: 12px;
+
+    }
+
+    .creditcard:hover+#show-text.creditcard,
+    .dataprotection:hover+#show-text.dataprotection,
+    .firewall:hover+#show-text.firewall,
+    .network:hover+#show-text.network,
+    .fishing:hover+#show-text.fishing,
+    .smartphone1:hover+#show-text.smartphone1,
+    .hacker:hover+#show-text.hacker,
+    .folder:hover+#show-text.folder,
+    .pendrive:hover+#show-text.pendrive,
+    .malware:hover+#show-text.malware,
+    .smartphone:hover+#show-text.smartphone,
+    .malware1:hover+#show-text.malware1 {
+
+        box-shadow: 22px 34px 1px 38px #61C017;
+
+    }
+}
+
+@media (max-width: 900px) {
+
+    .creditcard,
+    .dataprotection,
+    .hacker,
+    .firewall,
+    .fishing,
+    .network,
+    .folder,
+    .pendrive,
+    .malware,
+    .malware1,
+    .smartphone,
+    .smartphone1 {
+        height: 108px;
+        width: 108px;
+    }
+
+    .creditcard:hover,
+    .dataprotection:hover,
+    .hacker:hover,
+    .firewall:hover,
+    .fishing:hover,
+    .network:hover,
+    .folder:hover,
+    .pendrive:hover,
+    .malware:hover,
+    .malware1:hover,
+    .smartphone:hover,
+    .smartphone1:hover {
+        box-shadow: 0px 30px 1px 34px #61C017;
+    }
+
+    .creditcard+#show-text.creditcard,
+    .dataprotection+#show-text.dataprotection,
+    .firewall+#show-text.firewall,
+    .network+#show-text.network,
+    .fishing+#show-text.fishing,
+    .smartphone1+#show-text.smartphone1,
+    .hacker+#show-text.hacker,
+    .folder+#show-text.folder,
+    .pendrive+#show-text.pendrive,
+    .malware+#show-text.malware,
+    .smartphone+#show-text.smartphone,
+    .malware1+#show-text.malware1 {
+        font-size: 12px;
+    }
+
+    .creditcard:hover+#show-text.creditcard,
+    .dataprotection:hover+#show-text.dataprotection,
+    .firewall:hover+#show-text.firewall,
+    .network:hover+#show-text.network,
+    .fishing:hover+#show-text.fishing,
+    .smartphone1:hover+#show-text.smartphone1,
+    .hacker:hover+#show-text.hacker,
+    .folder:hover+#show-text.folder,
+    .pendrive:hover+#show-text.pendrive,
+    .malware:hover+#show-text.malware,
+    .smartphone:hover+#show-text.smartphone,
+    .malware1:hover+#show-text.malware1 {
+        box-shadow: 6px 30px 1px 34px #61C017;
+    }
+}
