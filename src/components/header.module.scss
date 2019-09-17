@@ -1,0 +1,266 @@
+.header {
+    padding: 1.5em 0 0 0;
+    margin: 0;
+    background: repeating-linear-gradient(-30deg,
+            rgba(0, 0, 0, 0.4) 0.8px,
+            rgba(0, 0, 0, 0.3) 2px,
+            rgba(0, 0, 0, 0.4) 2px,
+            rgba(0, 0, 0, 0.4) 5px), linear-gradient(135deg, rgba(1, 1, 1, 1) 0%, rgba(20, 20, 20, 0.85) 11%, rgba(73, 71, 71, 0.6)21%, rgba(90, 184, 13, 0.85) 40%, rgba(80, 216, 16, 0.9) 60%, rgba(155, 224, 64, 0.871)76%, rgba(154, 190, 23, 0.9) 82%, rgba(221, 153, 27, 0.9) 100%), url("../images/chips-circuit-board-computer-4316-1024x683.jpg")no-repeat;
+    background-size: 100%;
+    background-position: 50% 100%;
+    height: 770px;
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    height: 50px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 33px 46px;
+}
+
+ul li:nth-child(1) {
+    line-height: 62px;
+    padding: 0 2% 0 2%;
+}
+
+ul li:nth-child(2) {
+    border-right: 1px solid rgb(199, 196, 196);
+    line-height: 62px;
+    padding: 0 1% 0 0%;
+}
+
+ul li:nth-child(3) {
+    border-right: 1px solid rgb(199, 196, 196);
+    line-height: 62px;
+    padding: 0 1% 0 1%;
+}
+
+ul li:nth-child(4) {
+    border-right: 1px solid rgb(199, 196, 196);
+    line-height: 62px;
+    padding: 0 1% 0 1%;
+}
+
+ul li:nth-child(5) {
+    line-height: 62px;
+    padding: 0 16% 0 1%;
+}
+
+.logo-item {
+    display: inline-block;
+    margin-bottom: -18px;
+    width: 95px !important;
+    height: 55px !important;
+    filter: brightness(0) invert(1);
+}
+
+
+.nav-item:hover {
+    color: #666666;
+    border-top: 10px solid rgb(122, 238, 14);
+}
+
+.graph-Font {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 190px;
+
+}
+
+.graph-Font-Company {
+    @extend .graph-Font;
+    margin-top: -20px;
+    color: rgb(53, 53, 53);
+}
+
+.myBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    z-index: 99;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.arrow-top {
+    display: block;
+    margin-right: 13px;
+    margin-bottom: 42px;
+    color: black;
+    transform: rotate(-90deg);
+}
+
+a:link {
+    text-decoration: none
+}
+
+.arrow-down {
+    transform: rotate(90deg);
+    margin-top: 42px;
+    margin-left: 25px;
+    color: black;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    width: 115px;
+}
+
+@media (max-width: 1600px) {
+    .header {
+        height: 600px;
+    }
+
+    .nav-list {
+        margin-top: 9px;
+        height: 45px;
+    }
+
+    .nav-item {
+        padding: 33px 50px;
+    }
+
+    ul li:nth-child(1) {
+        padding: 0 2% 0 3%;
+    }
+
+    .logo-item {
+        width: 93px !important;
+        height: 53px !important;
+    }
+
+    .graph-Font {
+        font-size: 62px;
+    }
+
+    .graph-Font-Company {
+        font-size: 62px;
+    }
+
+    .myBtn {
+        font-size: 48px;
+    }
+
+    .arrow-top {
+        margin-bottom: 34px;
+    }
+
+    .arrow-down {
+        margin-top: 34px;
+    }
+
+    .line {
+        width: 6vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        height: 500px;
+    }
+
+    .nav-list {
+        margin-top: 9px;
+        height: 41px;
+    }
+
+    .nav-item {
+        padding: 33px 46px;
+    }
+
+    ul li:nth-child(1) {
+        padding: 0 2% 0 6%;
+    }
+
+    .logo-item {
+        width: 93px !important;
+        height: 53px !important;
+    }
+
+    .graph-Font {
+        margin-top: 140px;
+        font-size: 55px;
+    }
+
+    .graph-Font-Company {
+        margin-top: -10px;
+        font-size: 55px;
+    }
+
+    .myBtn {
+        font-size: 48px;
+    }
+
+    .arrow-top {
+        margin-bottom: 24px;
+    }
+
+    .arrow-down {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: 340px;
+    }
+
+    .nav-list {
+        margin-top: 9px;
+        height: 36px;
+    }
+
+    .nav-item {
+        padding: 33px 35px;
+    }
+
+    ul li:nth-child(1) {
+        padding: 0 2% 0 2%;
+    }
+
+    .logo-item {
+        width: 93px !important;
+        height: 53px !important;
+    }
+
+    .graph-Font {
+        margin-top: 100px;
+        font-size: 55px;
+    }
+
+    .graph-Font-Company {
+        margin-top: -10px;
+        font-size: 55px;
+    }
+
+    .myBtn {
+        font-size: 48px;
+    }
+
+    .arrow-top {
+        margin-bottom: 24px;
+    }
+
+    .arrow-down {
+        margin-top: 24px;
+    }
+}
